@@ -1,0 +1,12 @@
+cat > .dockerignore << 'EOF'
+.git
+.gitignore
+__pycache__
+*.py[cod]
+venv/
+.env
+.github/
+*.tfstate
+*.tfstate.backup
+.terraform/
+EOF
